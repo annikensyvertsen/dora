@@ -1,12 +1,12 @@
 import logo from './img/dora_logo.svg';
 import './styles/App.css';
-import {Home} from './components/Home';
 import { Vision } from './components/Vision';
 import { Link, animateScroll as scroll } from "react-scroll";
 import {Project} from './components/project';
 import  {About}  from './components/About';
 import {History} from './components/History'
 import {Team} from './components/Team';
+import Home from './components/home';
 
 
 const App = () => {
