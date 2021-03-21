@@ -1,0 +1,21 @@
+
+.projectBackground {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.projectTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.projectHeader {
+  color: #49654E;
+  font-family: 'Roboto';
+  font-size: 4em;
+}

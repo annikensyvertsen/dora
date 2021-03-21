@@ -1,0 +1,45 @@
+.content {
+/*   position: absolute;
+ */  
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.imgcontainer {
+  display: flex;
+}
+
+.square {
+  width: 20em;
+  height: 70vh;;
+  background-color: #C0CFB2;
+
+}
+
+.doraimg {
+  height: 50vh;
+  max-height: 28em;
+  margin-left: 20%;
+  margin-top: 60px;
+
+}
+
+.textContainer {
+  width: 40%;
+  margin-right: 5%;
+  padding-top:0;
+}
+
+.headertext {
+  color: #49654E;
+  font-family: 'Roboto';
+  font-size: 5em;
+  text-align: right;
+}
+.hometext {
+  font-family: 'Roboto';
+  text-align: justify;
+}

@@ -1,0 +1,21 @@
+.background {
+  background-color: #C0CFB2;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.visionHeader {
+  color: #49654E;
+  font-family: 'Roboto';
+  font-size: 4em;
+}
