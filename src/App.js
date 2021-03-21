@@ -11,10 +11,15 @@ import Team from './components/Team';
 
 const App = () => {
   let navbarList = ["Home", "Project", "About", "Vision", "History", "Team"]
+  const scrollToTop = () => {
+    scroll.scrollToTop()
+  }
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />    
+        <Link onClick={scrollToTop}>
+          <img src={logo} className="App-logo" alt="logo" />    
+        </Link>
         <div className="navbar">
         {navbarList.map(item => 
           <Link activeClass="active" to={item} spy={true} smooth={true}  duration={500} key={item}>
@@ -33,11 +38,11 @@ const App = () => {
         <div id="Project">
          <Project />
         </div>
-        <div id="History">
-          <History/>
-        </div>
         <div id="About">
           <About/>
+        </div>
+        <div id="History">
+          <History/>
         </div>
         <div id="Team">
           <Team />

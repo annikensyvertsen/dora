@@ -6,9 +6,17 @@
   justify-content: center;
 
 }
+.greenBackground {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#C0CFB2;
+}
 
 .projectTextContainer {
   display: flex;
+  width: 50%;
   flex-direction: column;
   justify-content: center;
   text-align: center;
@@ -18,4 +26,88 @@
   color: #49654E;
   font-family: 'Roboto';
   font-size: 4em;
+  margin-top:0;
 }
+
+.historyHeader {
+  color: #49654E;
+  font-family: 'Roboto';
+  font-size: 4em;
+  text-align: left;
+}
+
+.historyText {
+  text-align: justify;
+}
+
+.historyContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.historyImg{
+  height: 100vh;
+  max-width: 40em;
+  object-fit: cover;
+}
+
+.historyTextContainer {
+  margin: 10%;
+}
+
+.teamHeader {
+  margin-right: 10%;
+  margin-top: 0;
+}
+
+
+.team {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.teamContainer {
+  display:flex;
+  flex-wrap: wrap;
+  width: 70%;
+  align-items: left;
+
+}
+
+h3 {
+  color: #49654E;
+  font-family: 'Roboto';
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.portraitContainer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+}
+
+.portrait {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  background: "red";
+  display: "block";
+  object-fit: cover;
+  margin: 2%;
+
+}
+
+.portraitText {
+  width: 300px;
+  text-align: left;
+  margin-left: 4%;
+  font-family: 'Roboto';
+
+}
+
+.ptext {
+  margin-top:0;
+}
+
