@@ -1,4 +1,4 @@
-import '../Vision.css';
+import '../styles/Vision.css';
 
 export const Vision = () => {
   return(

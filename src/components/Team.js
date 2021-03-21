@@ -1,9 +1,9 @@
-import '../Project.css';
-import eo from '../eo.jpg';
-import jacob from '../jacob.jpg';
-import kristoffer from '../kristoffer.jpg';
-import bettina from '../bettina.jpg';
-import anniken from '../anniken.jpg';
+import '../styles/Project.css';
+import eo from '../img/eo.jpg';
+import jacob from '../img/jacob.jpg';
+import kristoffer from '../img/kristoffer.jpg';
+import bettina from '../img/bettina.jpg';
+import anniken from '../img/anniken.jpg';
 
 
 

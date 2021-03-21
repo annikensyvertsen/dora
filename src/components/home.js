@@ -1,5 +1,5 @@
-import '../Home.css';
-import dora from '../d.jpg';
+import '../styles/Home.css';
+import dora from '../img/d.jpg';
 
 export const Home = () => {
   return(

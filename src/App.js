@@ -1,6 +1,6 @@
-import logo from './dora_logo.svg';
-import './App.css';
-import Home from './components/home';
+import logo from './img/dora_logo.svg';
+import './styles/App.css';
+import Home from './components/Home';
 import { Vision } from './components/Vision';
 import { Link, animateScroll as scroll } from "react-scroll";
 import Project from './components/project';
