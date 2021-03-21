@@ -1,14 +1,16 @@
 import logo from './dora_logo.svg';
 import './App.css';
-/* import Navbar from './components/Navbar';
- */import Home from './components/home';
+import Home from './components/home';
 import { Vision } from './components/Vision';
 import { Link, animateScroll as scroll } from "react-scroll";
 import Project from './components/project';
+import  {About}  from './components/About';
+import {History} from './components/History'
+import Team from './components/Team';
 
 
 const App = () => {
-  let navbarList = ["Home", "Project", "About", "Vision", "Hisory", "Team"]
+  let navbarList = ["Home", "Project", "About", "Vision", "History", "Team"]
   return (
     <div className="App">
       <header className="App-header">
@@ -30,6 +32,15 @@ const App = () => {
         </div>
         <div id="Project">
          <Project />
+        </div>
+        <div id="History">
+          <History/>
+        </div>
+        <div id="About">
+          <About/>
+        </div>
+        <div id="Team">
+          <Team />
         </div>
       </div>
      
